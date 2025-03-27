@@ -1,6 +1,6 @@
 # Martelli Beamer Theme
 
-The **Martelli Beamer Theme** is a simple LaTeX template designed for elegant and iconic academic and scientific presentations.
+The **Martelli Beamer Theme** is a simple LaTeX template for Beamer, designed for elegant and iconic academic and scientific presentations.
 
 -   Github: https://github.com/Riccardo-Martelli/Riccardo-Beamer-Theme
    
