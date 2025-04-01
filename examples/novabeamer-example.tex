@@ -4,7 +4,7 @@
 
 \documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
 %\usetheme{SimpleDarkBlue}
-\usepackage{mytheme}  % Use the custom theme
+\usepackage{novabeamer}  % Use the custom theme
 \usepackage{hyperref}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
@@ -42,6 +42,7 @@
 %==========================
 
 \begin{frame}{GitHub Hyperref link}
+\centering
     \Huge Published on GitHub\\
     \href{https://github.com/Riccardo-Martelli/Riccardo-Beamer-Theme}{\faGithub GitHub link}
 \end{frame}
@@ -53,16 +54,16 @@
     In this slide, some important text will be \alert{highlighted}.
 
     \begin{block}{Text block describing the context}
-        Text introducing a formula.
+        Text introducing a formula...
     \end{block}
 
     \begin{alertblock}{Formula}
-        Sample text in red box
+        Sample text in red box...
         \[ds^2 = g_{\mu\nu}\, dx^\mu dx^\nu\,,\]
     \end{alertblock}
 
     \begin{examples}
-        Sample text in green box. Kerr Metric.
+        Sample text in green box describing Kerr Metric....
         \[ds^2 = \dots\]
     \end{examples}
 
@@ -129,7 +130,7 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 \begin{frame}{Figure}
     Example of the usage of \textit{figure}. The image file is located in the same directory as the .tex file.
     \begin{figure}
-    \includegraphics[width=0.6\linewidth]{GM.png}
+    \includegraphics[width=0.6\linewidth]{examples/novabeamer-example-image.png.png}
     \end{figure}
 \end{frame}
 
@@ -147,7 +148,7 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 \begin{frame}{Bibliography/References}
     \nocite{*}
     \footnotesize
-    \bibliography{reference.bib}
+    \bibliography{examples/novabeamer-ref}
     \bibliographystyle{apalike}
 \end{frame}
 
