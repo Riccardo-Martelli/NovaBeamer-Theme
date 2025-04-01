@@ -45,7 +45,7 @@ This document provides an in-depth guide on customizing and utilizing the NovaBe
 
 ## License
 
-This project is released under the **Unlicense License**, granting you complete freedom to use, modify, and distribute the template. For more details, see the [LICENSE](./LICENSE) file.
+This project is released under the **LaTeX Project Public License (LPPL-1.3c)**, allowing modification and redistribution under its terms. For more details, see the [LICENSE](./LICENSE) file.
 
 ## Author
 
@@ -54,4 +54,5 @@ Developed by Riccardo Martelli. For feedback, suggestions, or contributions, ple
 ## Additional Information
 
 - **Examples:** Additional example files and images are provided in the `examples/` directory to help you get started quickly.
+
 
