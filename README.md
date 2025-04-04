@@ -49,7 +49,10 @@ This project is released under the **LaTeX Project Public License (LPPL-1.3c)**,
 
 ## Author
 
-Developed by Riccardo Martelli. For feedback, suggestions, or contributions, please visit the [GitHub repository](https://github.com/Riccardo-Martelli/NovaBeamer-Theme).
+Developed by Riccardo Martelli. For feedback, suggestions, or contributions, please visit the following pages:
+- [GitHub repository](https://github.com/Riccardo-Martelli/NovaBeamer-Theme).
+- [CTAN](https://www.ctan.org/pkg/novabeamer-theme)
+- [My Webpage](https://riccardo-martelli.github.io/.github.io/index.html)
 
 ## Additional Information
 
