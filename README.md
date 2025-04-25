@@ -35,6 +35,7 @@ To use the NovaBeamer theme in your presentation, include the following in the p
 \documentclass{beamer}
 \usetheme{novabeamer}
 ```
+**Note:** If you are in Overleaf, you have to upload the .sty file.
 
 ## Documentation
 
