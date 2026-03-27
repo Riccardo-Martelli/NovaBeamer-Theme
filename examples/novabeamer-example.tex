@@ -5,8 +5,6 @@
 \documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
 %\usetheme{SimpleDarkBlue}
 \usepackage{novabeamer}  % Use the custom theme
-\usepackage{hyperref}
-\usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage{fontawesome5}
 
@@ -33,7 +31,8 @@
     \titlepage
 \end{frame}
 
-\begin{frame}{Overview}
+\begin{frame}
+\frametitle{Overview}
     \tableofcontents
 \end{frame}
 
@@ -41,7 +40,8 @@
 \section{GitHub Section}
 %==========================
 
-\begin{frame}{GitHub Hyperref link}
+\begin{frame}
+\frametitle{GitHub Hyperref link}
 \centering
     \Huge Published on GitHub\\
     \href{https://github.com/Riccardo-Martelli/Riccardo-Beamer-Theme}{\faGithub GitHub link}
@@ -49,7 +49,8 @@
 
 %==========================
 
-\begin{frame}{Formulas and Highlighted Text}
+\begin{frame}
+\frametitle{Formulas and Highlighted Text}
 
     In this slide, some important text will be \alert{highlighted}.
 
@@ -74,7 +75,8 @@
 
 \section{Section}
 
-\begin{frame}{Multiple Columns}
+\begin{frame}
+\frametitle{Multiple Columns}
     \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 
         \column{.45\textwidth} % Left column and width
@@ -98,7 +100,8 @@
 \section{Another Section}
 %==========================
 
-\begin{frame}{Table}
+\begin{frame}
+\frametitle{Table}
     \begin{table}
         \begin{tabular}{c c c}
             \toprule
@@ -115,7 +118,8 @@
 
 %==========================
 
-\begin{frame}{Theorem}
+\begin{frame}
+\frametitle{Theorem}
     \begin{theorem}[Lagrange's Mean Value Theorem ]
 The \textbf{Mean Value Theorem (MVT)} states that if a function \( f \) is continuous on a closed interval \( [a,b] \) and differentiable on the open interval \( (a,b) \), then there exists at least one point \( c \) in \( (a,b) \) such that:
 
@@ -127,7 +131,8 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 
 %==========================
 
-\begin{frame}{Figure}
+\begin{frame}
+\frametitle{Figure}
     Example of the usage of \textit{figure}. The image file is located in the same directory as the .tex file.
     \begin{figure}
     \includegraphics[width=0.6\linewidth]{examples/novabeamer-example-image.png.png}
@@ -145,7 +150,8 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 
 %==========================
 
-\begin{frame}{Bibliography/References}
+\begin{frame}
+\frametitle{Bibliography/References}
     \nocite{*}
     \footnotesize
     \bibliography{examples/novabeamer-ref}
