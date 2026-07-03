@@ -1,7 +1,7 @@
 # NovaBeamer Theme
 
-**Version 1.0**  
-*Release Date: April 1, 2025*
+**Version 1.1**  
+*Release Date: March 29, 2026*
 
 The **NovaBeamer Theme** is a LaTeX Beamer theme designed to create elegant and professional presentations for academic and scientific purposes.
 
@@ -33,7 +33,7 @@ To use the NovaBeamer theme in your presentation, include the following in the p
 
 ```latex
 \documentclass{beamer}
-\usepackage{novabeamer}
+\usetheme{novabeamer}
 ```
 **Note:** If you are using Overleaf, you have to upload the .sty file.
 
