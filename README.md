@@ -1,12 +1,13 @@
 # NovaBeamer Theme
 
-**Version 1.0**  
-*Release Date: April 1, 2025*
+**Version 1.1**  
+*Release Date: July 3, 2026*
 
 The **NovaBeamer Theme** is a LaTeX Beamer theme designed to create elegant and professional presentations for academic and scientific purposes.
 
 ## Features
 
+- **Standard Beamer Integration:** Fully supports the native `\usetheme` command.
 - **Customizable Color Schemes:** Easily adjust the theme's colors to match your institution's branding.
 - **Modern Design:** Clean and minimalistic slide layouts that focus on content.
 - **Title Page Customization:** Enhanced title page with options for background images and custom formatting.
@@ -18,8 +19,8 @@ To install the NovaBeamer theme:
 1. **Download the Package:**
    - Clone the repository or download the ZIP file from the [GitHub repository](https://github.com/Riccardo-Martelli/NovaBeamer-Theme).
 
-2. **Extract Files:**
-   - Extract the contents to your local LaTeX directory or the directory containing your presentation.
+2. **File Placement:**
+   - Ensure the file `beamerthemenovabeamer.sty` is in the same directory as your presentation or placed inside your local TeX tree.
 
 3. **Update LaTeX Database:**
    - If you've placed the theme in your local TeX tree, update the filename database using:
@@ -33,7 +34,7 @@ To use the NovaBeamer theme in your presentation, include the following in the p
 
 ```latex
 \documentclass{beamer}
-\usepackage{novabeamer}
+\usetheme{novabeamer}
 ```
 **Note:** If you are using Overleaf, you have to upload the .sty file.
 
