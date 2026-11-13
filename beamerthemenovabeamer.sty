@@ -23,8 +23,9 @@
 \setbeamertemplate{itemize item}[triangle]
 
 % Ensure all links are underlined
-\let\oldhref\href
-\renewcommand{\href}[2]{\underline{\oldhref{#1}{#2}}}  % Underline all links
+% Keeps the optional argument of \href, e.g. \href[pdfnewwindow]{url}{text}
+\NewCommandCopy{\oldhref}{\href}
+\RenewDocumentCommand{\href}{omm}{\IfNoValueTF{#1}{\oldhref{#2}{\underline{#3}}}{\oldhref[#1]{#2}{\underline{#3}}}}
 
 
 % Custom title page template
